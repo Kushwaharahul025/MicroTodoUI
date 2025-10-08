@@ -16,13 +16,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Login to Azure using Federated Identity (OIDC)
-      - name: Azure Login 
-        uses: azure/login@v2.3.0
+      - name: Azure Login
+        uses: Azure/login@v2.3.0
         with:
-            client-id: ${{ secrets.AZURE_CLIENT_ID }}
-            tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-            subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+            client-id: 6deb65d7-e78e-4edf-b4f9-923a04f5c439
+            tenant-id: 86bd8535-9c67-42f5-b4b5-8f19dbd5d717
+            subscription-id: b4235c62-725e-4da6-9d12-296ccb04cb57
            
             
         
