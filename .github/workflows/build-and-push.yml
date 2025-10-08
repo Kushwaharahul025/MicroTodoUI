@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: runkro
+    runs-on: agent
 
     permissions:
       id-token: write
