@@ -1,9 +1,7 @@
 name: Build and Push React App to ACR
 
 on:
-  push:
-    branches:
-      - main  # jab main branch pe push hoga tab ye chalega
+  workflow_dispatch:
 
 jobs:
   build:
